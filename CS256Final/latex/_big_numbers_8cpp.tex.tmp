@@ -1,0 +1,90 @@
+\hypertarget{_big_numbers_8cpp}{}\section{Big\+Numbers.\+cpp File Reference}
+\label{_big_numbers_8cpp}\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+{\ttfamily \#include \char`\"{}Big\+Numbers.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for Big\+Numbers.\+cpp\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}{operator}} (\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} num)
+\item 
+\mbox{\hyperlink{_big_numbers_8cpp_a84234739d2c563d9d0bab669e1631390}{Big\+Numbers}} ()
+\item 
+\mbox{\hyperlink{_big_numbers_8cpp_addb729c1d7716c58b5654c14c004daed}{Big\+Numbers}} (string string\+Number)
+\item 
+\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_adc80519dc2b10be7088c6540f4478ec7}{operator+}} (\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} num)
+\item 
+\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_aaf055a66e1665166e9eec40e4138b298}{operator-\/}} (\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} num)
+\item 
+\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a967c69bfd1ef53010b40d0722c7b8887}{operator/}} (\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} num)
+\item 
+\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_aba2d10859014cabf79476ca399fbd3d2}{operator\%}} (\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} num)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+return \mbox{\hyperlink{_big_numbers_8cpp_a2da47c2165c7429692c3459cf9e4b089}{temp\+Value}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_big_numbers_8cpp_a84234739d2c563d9d0bab669e1631390}\label{_big_numbers_8cpp_a84234739d2c563d9d0bab669e1631390}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!Big\+Numbers@{Big\+Numbers}}
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{Big\+Numbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily operator\+::\+Big\+Numbers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_addb729c1d7716c58b5654c14c004daed}\label{_big_numbers_8cpp_addb729c1d7716c58b5654c14c004daed}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!Big\+Numbers@{Big\+Numbers}}
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{Big\+Numbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily operator\+::\+Big\+Numbers (\begin{DoxyParamCaption}\item[{string}]{string\+Number }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}\label{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!operator@{operator}}
+\index{operator@{operator}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{operator()}{operator()}}
+{\footnotesize\ttfamily class \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} operator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_aba2d10859014cabf79476ca399fbd3d2}\label{_big_numbers_8cpp_aba2d10859014cabf79476ca399fbd3d2}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!operator\%@{operator\%}}
+\index{operator\%@{operator\%}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{operator\%()}{operator\%()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}{operator}}\% (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_adc80519dc2b10be7088c6540f4478ec7}\label{_big_numbers_8cpp_adc80519dc2b10be7088c6540f4478ec7}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!operator+@{operator+}}
+\index{operator+@{operator+}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}{operator\+::operator}}+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_aaf055a66e1665166e9eec40e4138b298}\label{_big_numbers_8cpp_aaf055a66e1665166e9eec40e4138b298}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}{operator\+::operator}}-\/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}}]{num }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_big_numbers_8cpp_a967c69bfd1ef53010b40d0722c7b8887}\label{_big_numbers_8cpp_a967c69bfd1ef53010b40d0722c7b8887}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!operator/@{operator/}}
+\index{operator/@{operator/}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_numbers}{Big\+Numbers}} \mbox{\hyperlink{_big_numbers_8cpp_a2ac03e034534288f7d6016ecb691cf76}{operator}}/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_numbers}{Big\+Numbers}}}]{num }\end{DoxyParamCaption})}
+
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_big_numbers_8cpp_a2da47c2165c7429692c3459cf9e4b089}\label{_big_numbers_8cpp_a2da47c2165c7429692c3459cf9e4b089}} 
+\index{Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}!temp\+Value@{temp\+Value}}
+\index{temp\+Value@{temp\+Value}!Big\+Numbers.\+cpp@{Big\+Numbers.\+cpp}}
+\subsubsection{\texorpdfstring{temp\+Value}{tempValue}}
+{\footnotesize\ttfamily return temp\+Value}
+
